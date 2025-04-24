@@ -32,7 +32,7 @@
                     echo '
                    <div class="col-md-3 p-3">
                     <div class="myCard">
-                        <img src="uploads/'.$ph.'" class="img-fluid" alt="">
+                        <img src="uploads/'.$ph.'" class="img-fluid" style="height: 250px; width: 220px;" alt="">
                         <h3>'.$fn.'</h3>
                         <p>'.$se.'</p>
                         <p>'.$cn.'</p>

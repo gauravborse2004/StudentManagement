@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>View Data</h1>
-    <table class="table table-bordered container mt-5"> <!--bordered=1-->
+    <table bordered=1> <!--bordered=1-->
     <tr>
         <th>fullname</th>
         <th>email</th>
@@ -37,18 +37,9 @@
             <td>".$nm."</td>
             <td>".$se."</td>
             <td>".$cn."</td>
-           
-            
         </tr>
         ";
-
-        //echo $nm ." ".$se." ".$cn ." ".$pw. "<br>";
      }
-
-     
-    //  echo $se ."<br>";
-    //  echo $cn ."<br>";
-    //  echo $pw ."<br>";
     }
     else{
         echo "Data not found";

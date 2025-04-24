@@ -18,6 +18,7 @@
         <th>Email</th>
         <th>Contact</th>
         <th>View</th>
+        <th>Update</th>
         <th>Delete</th>
     </tr>
     
@@ -41,6 +42,9 @@
                 
                 <td>
                     <a href='view.php?myVar=$se'>View</a>
+                </td>
+                <td>
+                    <a href='edit.php?myVar=$se'>Update</a>
                 </td>
                  <td>
                     <a href='delete.php?myVar=$se'>Delete</a>
